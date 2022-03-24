@@ -738,6 +738,7 @@ header {
 .empresa {
   width: 100%;
   background-image: url('../images/bg-jetech.png');
+  background-position: left, top;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -864,6 +865,77 @@ header {
     }
   }
 }
+
+// ----------- Produtos --------- //
+.produtos {
+  width: 100%;
+  background-image: url('../images/bg-jetech.png');
+  background-position: left, top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &-title {
+    font-size: 50px;
+    color: $title;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    
+    &:after {
+      content: "";
+      width: 119px;
+      height: 5px;
+      background: $secondary;
+    }
+  }
+
+  .nav {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    &-item {
+      flex: 1 0 30%;
+      display: flex;
+      justify-content: center;
+      border-radius: 10px;
+      background-color: $white;
+      @include box-shadow();
+      margin: 0 5px 10px 5px;
+     
+  
+      .nav-link {
+        font-size: 40px;
+        color: $title;
+        font-weight: 600;
+        width: 100%;
+      }
+    }
+  }
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: $secondary;
+  }
+
+  .tab-content {
+    text-align: center;
+  }
+
+  .tab-pane {
+    background: $title;
+//---------------------------------------------------- terminei aqui ----------------------------------------------- //
+    &-text {
+
+      &-title {
+
+      }
+    }
+  }
+}
+
 
 // Footer
 footer {

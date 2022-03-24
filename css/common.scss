@@ -47,7 +47,7 @@
     -o-transform: translate($value1, $value2);
     transform: translate($value1, $value2);
 }
-@mixin box-shadow($property: 0 5px 10px rgba(0,0,0,0.3)) {
+@mixin box-shadow($property: 3px 4px 1px rgba(107, 107, 107, 0.281)) {
     -webkit-box-shadow: $property;
     -moz-box-shadow: $property;
     -ms-box-shadow: $property;
