@@ -1059,7 +1059,8 @@ header .social-midia .fa-facebook-official {
   text-align: center;
   color: #3E4649;
   padding: 10px 20px;
-  border-radius: 0 0 20px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
   -webkit-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
   -moz-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
   -ms-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);

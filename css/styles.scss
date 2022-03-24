@@ -818,7 +818,8 @@ header {
       text-align: center;
       color: $title;
       padding: 10px 20px;
-      border-radius: 0 0 20px 0;
+      background-color: $white;
+      border-radius: 10px;
       @include box-shadow(3px 4px 1px rgba(107, 107, 107, 0.281));
 
       &-title {
