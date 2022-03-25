@@ -3,9 +3,9 @@
 
 <section class="produtos">
   <div class="container">
-    <h1 class="produtos-title">
-      Produtos
-    </h1>
+    <div class="produtos-title">
+      <h1 class="produtos-title-content">Produtos</h1>
+    </div>
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Categoria 1</button>
@@ -29,19 +29,172 @@
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <div class="tab-pane-text">
-          <h1 class="tab-pane-text-title">Produto 1</h1>
-          <p class="tab-pane-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
-          <a href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
-            <span>Ver mais</span>
-          </a>
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 1</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 2</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
         </div>
       </div>
-      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Categoria 2</div>
-      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Categoria 3</div>
-      <div class="tab-pane fade" id="pills-cat4" role="tabpanel" aria-labelledby="pills-cat4-tab">Categoria 4</div>
-      <div class="tab-pane fade" id="pills-cat5" role="tabpanel" aria-labelledby="pills-cat5-tab">Categoria 5</div>
-      <div class="tab-pane fade" id="pills-cat6" role="tabpanel" aria-labelledby="pills-cat6-tab">Categoria 6</div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 1</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 2</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 1</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 2</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-cat4" role="tabpanel" aria-labelledby="pills-cat4-tab">
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 1</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 2</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-cat5" role="tabpanel" aria-labelledby="pills-cat5-tab">
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 1</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 2</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-cat6" role="tabpanel" aria-labelledby="pills-cat6-tab">
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 1</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+        <div class="tab-pane-text">
+          <div class="tab-pane-text-product">
+            <h1 class="tab-pane-text-product-title">Produto 2</h1>
+            <p class="tab-pane-text-product-subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis nemo magnam enim omnis rem eaque qui animi, tempora, autem aliquid excepturi assumenda accusantium voluptatibus minima ratione, nostrum obcaecati vel?</p>
+            <a class="tab-pane-text-product-btn" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><title>Ver mais</title><polyline points="262.62 336 342 256 262.62 176" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="330.97" y1="256" x2="170" y2="256" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:32px"/></svg>
+              <span>Ver mais</span>
+            </a>
+          </div>
+          <div class="tab-pane-img">
+            <img src="images/carrinho.png" alt="Foto De Carrinho de transporte">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

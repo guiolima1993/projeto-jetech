@@ -26,7 +26,6 @@ h1, h2 {
   position: relative;
   font-family: $font-family-title;
   font-weight: bold;
-  text-align: center;
   margin-top: 50px;
   margin-bottom: 0;
 }
@@ -868,6 +867,7 @@ header {
 
 // ----------- Produtos --------- //
 .produtos {
+  margin-top: 300px;
   width: 100%;
   background-image: url('../images/bg-jetech.png');
   background-position: left, top;
@@ -875,18 +875,30 @@ header {
   background-repeat: no-repeat;
 
   &-title {
-    font-size: 50px;
-    color: $title;
-    text-transform: uppercase;
-    font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    
-    &:after {
-      content: "";
-      width: 119px;
-      height: 5px;
-      background: $secondary;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    &-content {
+      font-size: 50px;
+      color: $title;
+      text-transform: uppercase;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+
+      &:after {
+        content: "";
+        width: 119px;
+        height: 5px;
+        background: $secondary;
+      }
+
+      @media (max-width: 800px) {
+        font-size: 40px;
+        align-items: center;
+      }
     }
   }
 
@@ -915,7 +927,9 @@ header {
       }
     }
   }
-  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
     color: #fff;
     background-color: $secondary;
   }
@@ -925,16 +939,89 @@ header {
   }
 
   .tab-pane {
-    background: $title;
-//---------------------------------------------------- terminei aqui ----------------------------------------------- //
+    
     &-text {
+      margin-top: 86px;
+      display: flex;
+      border-radius: 10px;
+      justify-content: space-around;
+      padding: 0 5px;
+      @include box-shadow();
 
-      &-title {
+      &-product {
+        color: $white;
+        text-align: left;
+        background: $title;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 47px;
+        border-radius: 10px 0 0 10px;
 
+        &-title {
+          font-size: 50px;
+          font-weight: 700;
+        }
+
+        &-subject {
+          font-size: 20px;
+          font-weight: 300;
+          margin-top: 22px;
+        }
+
+        &-btn {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          margin-top: 50px;
+          @include transition(.6s);
+
+          &:hover {
+            transform: translate(10px);
+          }
+
+          span {
+            color: $white;
+            font-size: 30px;
+            font-weight: 600;
+            margin-left: 9px;
+          }
+        }
+      }
+    }
+
+    &-img {
+      flex: 1 0 50%;
+      display: flex;
+      justify-content: center;
+      background-color: $white;
+
+      img {
+        width: 100%;
+        max-width: 320px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      &-text {
+        display: block;
+        @include box-shadow(none);
+
+        &-product {
+          text-align: center;
+
+          &-btn {
+            justify-content: center;
+          }
+        }
+      }
+
+      &-img {
+        margin-top: 30px;
       }
     }
   }
-}
+} // produtos
 
 
 // Footer
