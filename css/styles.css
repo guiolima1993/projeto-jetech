@@ -1430,6 +1430,118 @@ header .social-midia .fa-facebook-official {
   }
 }
 
+.servicos {
+  width: 100%;
+  background-image: url("../images/bg-jetech.png");
+  background-position: left, top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.servicos-title {
+  position: absolute;
+  top: 104px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.servicos-title-content {
+  font-size: 50px;
+  color: #3E4649;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+.servicos-title-content:after {
+  content: "";
+  width: 119px;
+  height: 5px;
+  background: #DA2C1C;
+}
+@media (max-width: 800px) {
+  .servicos-title-content {
+    font-size: 40px;
+    align-items: center;
+  }
+}
+.servicos-cards {
+  margin-top: 250px;
+  background: #ffffff;
+}
+.servicos-cards-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
+  -moz-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
+  -ms-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
+  -o-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
+  box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
+  border-radius: 10px 0 10px 0;
+  position: relative;
+  padding: 50px;
+}
+.servicos-cards-item::before {
+  content: "";
+  width: 3px;
+  height: 55%;
+  background: #DA2C1C;
+  position: absolute;
+  left: 2%;
+}
+.servicos-cards-item-content {
+  display: block;
+}
+.servicos-cards-item-content-title {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #3E4649;
+  font-weight: 700;
+  margin: 0 !important;
+}
+.servicos-cards-item-content-text {
+  font-size: 17px;
+  color: #3E4649;
+  font-weight: 300;
+  margin-top: 12px !important;
+}
+@media (max-width: 1000px) {
+  .servicos-cards-item-content-title {
+    font-size: 35px;
+    text-align: center;
+  }
+  .servicos-cards-item-content-title-text {
+    text-align: center;
+  }
+}
+.servicos-cards-item .btn {
+  margin-top: 20px;
+  border: 2px solid #000;
+  padding: 0 70px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.servicos-cards-item .btn a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #343B4E;
+}
+.servicos-cards-item .btn:hover {
+  border: 2px solid #DA2C1C;
+}
+@media (max-width: 800px) {
+  .servicos-cards-item .btn {
+    padding: 0 40px;
+  }
+  .servicos-cards-item .btn a {
+    font-size: 17px;
+  }
+}
+
 footer {
   margin-top: 50px;
   padding-top: 15px;
