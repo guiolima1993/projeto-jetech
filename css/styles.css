@@ -1029,10 +1029,12 @@ header .social-midia .fa-facebook-official {
 .empresa-content-text-title-subject {
   font-size: 20px;
   font-weight: 300;
+  color: #3E4649;
 }
 .empresa-content-img {
   flex: 1 0 50%;
   text-align: right;
+  margin-left: 30px;
 }
 .empresa-content-img img {
   width: 100%;
@@ -1166,6 +1168,11 @@ header .social-midia .fa-facebook-official {
   font-weight: 600;
   width: 100%;
 }
+@media (max-width: 800px) {
+  .produtos .nav-item .nav-link {
+    font-size: 30px;
+  }
+}
 .produtos .nav-pills .nav-link.active,
 .produtos .nav-pills .show > .nav-link {
   color: #fff;
@@ -1179,7 +1186,6 @@ header .social-midia .fa-facebook-official {
   display: flex;
   border-radius: 10px;
   justify-content: space-around;
-  padding: 0 5px;
   -webkit-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
   -moz-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
   -ms-box-shadow: 3px 4px 1px rgba(107, 107, 107, 0.281);
@@ -1230,6 +1236,7 @@ header .social-midia .fa-facebook-official {
   display: flex;
   justify-content: center;
   background-color: #ffffff;
+  border-radius: 5px;
 }
 .produtos .tab-pane-img img {
   width: 100%;
@@ -1247,11 +1254,22 @@ header .social-midia .fa-facebook-official {
   .produtos .tab-pane-text-product {
     text-align: center;
   }
+  .produtos .tab-pane-text-product-title {
+    font-size: 35px;
+  }
+  .produtos .tab-pane-text-product-subject {
+    font-size: 17px;
+  }
   .produtos .tab-pane-text-product-btn {
     justify-content: center;
+    margin: 30px 0;
+  }
+  .produtos .tab-pane-text-product-btn span {
+    font-size: 25px;
   }
   .produtos .tab-pane-img {
-    margin-top: 30px;
+    max-width: 200px;
+    margin: 30px auto;
   }
 }
 
@@ -1439,7 +1457,7 @@ header .social-midia .fa-facebook-official {
 }
 .servicos-title {
   position: absolute;
-  top: 104px;
+  top: 0;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -1464,7 +1482,7 @@ header .social-midia .fa-facebook-official {
   }
 }
 .servicos-cards {
-  margin-top: 250px;
+  margin-top: 50px;
   background: #ffffff;
 }
 .servicos-cards-item {
