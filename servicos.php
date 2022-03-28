@@ -16,6 +16,8 @@
         </div>
         <button class="btn"><a href="orcamento.php">Contrate agora</a></button>
       </div>
+    </div>
+    <div class="servicos-cards">
       <div class="servicos-cards-item">
         <div class="servicos-cards-item-content">
           <h1 class="servicos-cards-item-content-title">
